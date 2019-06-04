@@ -36,10 +36,10 @@ xmr.onreadystatechange = function() {
     });
   }
 };
-xmr.open(
-  "GET",
-  "https://github.com/tsindiaikinal/activebox/blob/master/section-2.json",
-  true
-);
-// xmr.open("GET", "/section-2.json", true);
+// xmr.open(
+ // "GET",
+ // "https://github.com/tsindiaikinal/activebox/blob/master/section-2.json",
+  //true
+//);
+xmr.open("GET", "/section-2.json", true);
 xmr.send();
